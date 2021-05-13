@@ -1,192 +1,211 @@
-/* Title section */
-
-
-.container-fluid{
-    padding: 0 !important;
-} 
-
-.row {
-    margin: 0 !important; 
-} 
-
-.midContent,.endContent{
-    padding: 0 13%;
-}
-
-.topContent .btn{
-    padding: 0 10px;
-    border-radius: 10px;
-    background-color: salmon;
-}
-
-.topContent .btn:hover{
-    color: black;
-    background-color: white;
-}
-
-.topContent p{
-    color: white;
-    margin: 5px 10px;
-}
-
-.topContent{
+html,body{
+    height: 100%;
     width: 100%;
-    background-color: black;
-    display: inline-flex;
+    font-family: 'Poppins',sans-serif;
+    color: #222;
+    
+}
+.padding{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+/* Home */
+.tab{
+    width: 100%;
+    background-color: #171717;
+    display: flex;
     justify-content: center;
     height: 50px;
-    padding: 5px 0px;
+    color: white;
+    align-items: center;
 }
-.logo{
-    padding-top: 10px;
-    font-size: 30px;
-    color: white !important;
+.tab p{
+    margin-bottom: 0 ;
+    margin-left: 1rem;
+}
+.tab .btn{
+    background-color: salmon;
+    border: none;
+    margin-right: 1rem;
+    font-size: 90%;
+    border-radius: 20px;
+}
+.tab .btn:hover{
+    background-color: white;
+    color: #171717;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+}
+i{
+    margin-right: 1rem;
 }
 
-.name{
-    padding-left: 10px;
-    font-weight: bold;
-    font-size: 2.5rem;
-    color: white;
-    
-}
-.name:hover{
-    text-decoration: none;
-    color: white;
-}
-
-.midContent{
-    height: 50px;
-    width: 100%;
+.navbar{
+    padding: 0;
     background-color: salmon;
 }
-
+.navbar-nav li{
+    padding-right: 1em;
+}
 .nav-link{
-    text-decoration: none;
-    color: #F1E6E3;
+    font-size: 1.2em;
 }
-
-.block{
-    margin-top: 15px;;
-}
-
-.nav-link:hover{
-    text-decoration: none;
-    color: white;
-}
-
-.endContent{
-    width: 100%;
-    height: 300px;
+.bg{
+    display: flex;
+    align-items: center;
+    height: 23rem;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("image1.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-size: cover ;
-}
-
-.end{
-    padding-top: 2%;
-}
-.end h1{
     color: white;
 }
-.end p{
-    color: white;
+.content{
+   padding-top: 4em;
+   padding-bottom: 4em;
 }
 
-
-.trans{
-    background-color: transparent;
-    color: white;
-    border-color: white !important;
+/* features */
+#features{
+    margin-bottom: 5em;
 }
-
-.trans:hover{
-    background-color: white;
-    color: black;
-}
-
-/* Features section */
-.features{
-    padding : 5% 13%;
-}
-
-.row h2{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: bold;
-}
-
-.about {
-    padding-top: 1%;
-}
-.cards{
-    padding : 0 13%;
+.features-intro{
     display: flex;
-    margin: 0 15px;
-}
-
-.card1,.card2,.card3{
-    height: 250px;
-    width: 30%;
-    background-color: black;
-    color: whitesmoke;
-    text-align: center;
-    padding: 8% 5%;
     
 }
-.card2{
-    margin: 0 10%;
+
+.left,.right{
+    flex-basis: 50%;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
-.card-content{
-    padding : 1% 13%;
+.right{
+    text-align: right;
+}
+.cards{
     display: flex;
-    margin: 0 15px;
+    justify-content: space-between;
+    color: white;
+    
 }
-
-.c1,.c2,.c3{
-    height: 100px;
-    width: 30%;
-    color: black;
-}
-.c2{
-    margin: 0 10%;
-}
-/* Covid Section */
-
-.covid-img{
-    padding : 5% 13%;
-    width: 100%;
-    height: 300px;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("image2.jpg");
-    background-position: center;
-    background-size: cover ;
-}
-.covid-content{
-    color: whitesmoke;
-    text-align: end;
-}
-/* Shop section */
- .shop{
-    color: black;
-    font-weight: bold;
-    padding: 2.5% 13%;
-}
-
-/* footer section */
-#Findus{
-    padding: 1% 13%;
-    background-color: black;
+.card{
+    background-color: #171717;
+    height: 18rem;
     text-align: center;
-  
-  }
-#Findus .icon{
-    color: whitesmoke;
-    padding: 5% 1% 2% 1%;
+}
+.card-title{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+/* Covid section  */
+.covid-content{
+    align-items: center;
+    display: flex;
+    justify-content:flex-end;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-image: linear-gradient(rgba(208,208,208,0),rgba(208,208,208,0)),url("download.jpg");
+}
+.cont{
+    text-align: right;
+    flex-basis: 70%;
 }
 
-#Findus .icon:hover{
-    text-decoration: none;
-    color: teal;
+/* shop section */
+.shop-content{
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
+.shop-content a{
+    color: black;
+}
+/* findus */
+#findus{
+    background-color: #171717;
+    color: mintcream;
+}
+.find-us{
+    padding-top: 3em;
+    padding-bottom: 2em ;
+}
+hr{
+    border: 1px solid mintcream;
+}
+/* Media Query */
 
-  
+@media (max-width:992px){
+    .padding{
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+    .cards{
+        display: block;
+        width: 100%;
+    }
+    .card{
+        min-width: 100%;
+    }
+    .navbar-nav li{
+        padding-right: 0.7em;
+    }
+    .nav-link{
+        font-size: 0.9em;
+    }
+    .features-intro{
+        display: block;
+        text-align: center;
+    }
+    .left,.right{
+        width: 100%;
+        text-align: center;
+    }
+ @media (max-width : 768px) {
+    .padding{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    .navbar{
+        padding-right: 4em;
+        padding-left: 4em;
+        background-color: salmon;
+    }
+    .cont{
+        text-align: right;
+        flex-basis: 80%;
+    }
+    .features-intro{
+        display: block;
+        
+    }
+    .left,.right{
+        width: 100%;
+    }
+}
+    @media (max-width: 576px){
+        .padding{
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        .navbar{
+            padding-right: 2em;
+            padding-left: 2em;
+            background-color: salmon;
+        }
+        .cont{
+            text-align: center;
+            flex-basis: 100%;
+        }
+        .bg{
+            text-align: center;
+        }
+    }
+    
+ 
+ 
+
+}
