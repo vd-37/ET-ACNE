@@ -4,143 +4,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
+   
     
-    <!-- icons  -->
-    <script src="https://kit.fontawesome.com/2c4e6c734e.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c4e6c734e.js" crossorigin="anonymous"></script>
     
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
-    <section id = "title">
-        <div class = "container-fluid">
-            <div class="topContent">
-                <button type="button" class="btn btn-outline-dark ">COVID-19 resources</button>
-                <p>How we're responding to COVID-19.</p>
-            </div>
-            <div class="midContent">
-                <div class="row ">
-                    <div class="col-sm-6 ">
-                        <i class="fas fa-angle-double-up logo"></i>
-                      <a class="name" href="#">Acne</a>
-                    </div>
-                    <div class="col-sm-1 block">
-                        <p class="nav-item "><a class="nav-link " href="#title"> Title</a></p>
-                        
-                    </div>
-                    <div class="col-sm-1 block">
-                      
-                        <p class="nav-item "><a class="nav-link" href="#Support"> Features</a></p>
-                    </div>
-                    <div class="col-sm-1 block">
-                      
-                        <p class="nav-item "><a class="nav-link" href="#Covid"> Covid</a></p>
-                    </div>
-                    <div class="col-sm-1 block">
-                        <p class="nav-item "><a class="nav-link " href="#Shop" > Shop </a></p>
-                        
-                    </div>
-                    <div class="col-sm-1 block">
-                        <p class="nav-item "><a class="nav-link" href="#Findus"> Find us</a></p>
-                        
-                    </div>
-                    
-                    <div class="col-sm-1 block">
-                        <p class="nav-item "><a class="nav-link"> None</a></p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="endContent "> 
-                <div class="row end">
-                    <div class="col-lg-4">
-                        <h1>Serving you since 1989.</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis dicta, libero omnis perspiciatis explicabo autem .
-                        </p>
-                        <button type="button" class="btn btn-outline-light trans">Join Us</button>
+    <div class="tab">
+        <button class="btn-primary btn-lg btn">Covid-19 resources</button> 
+        <p>How we're responding to COVID-19.</p>   
+    </div>
+    <section id="home">
+        
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid padding">
+                    <a href="" class="navbar-brand"><i class="fas fa-angle-double-up logo"></i>Acme</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a href="#home" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#features" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#covid" class="nav-link">Covid</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#shop" class="nav-link">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#findus" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#none" class="nav-link">None</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </nav>
+        
+        
+        <div class="container-fluid bg padding"> 
+            <div class="row content">
+                <div class="col-lg-6 col-md-8 col-sm-12 ">
+                    <h1>Serving you since 1989.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis dicta, libero omnis perspiciatis explicabo autem .
+                    </p>
+                    <button type="button" class="btn btn-outline-light btn-md">Join Us</button>
+                </div>
+            </div>
 
-           </div>
+       </div>
+    </section>
 
+    <section id="features">
+        <div class="features-content padding">
+            <header class="features-intro">
+                <div class="left">
+                    <h5>Ways to support</h5>
+                    <h2>Support Acme Outdoors</h2>
+                </div>
+                <div class="right">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Delectus, dolores. Sed voluptatum velit tenetur dignissimos ex
+                    pedita iusto, pariatur excepturi obcaecati eius aperiam sit por
+                    ro cupiditate!
+                </div>
+            </header> 
+            <div class="cards">
+                <div class="card border-light mb-3" style="max-width: 18rem;">
+                      
+                    <div class="card-body">
+                      <h3 class="card-title">  <strong>DONATE</strong></h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel magni sit officiis, voluptatem repellendus.</p>
+                    </div>
+                  </div>
+                  <div class="card border-light mb-3" style="max-width: 18rem;">
+                      
+                    <div class="card-body">
+                      <h3 class="card-title">  <strong>SERVE</strong></h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel magni sit officiis, voluptatem repellendus.</p>
+                    </div>
+                  </div>
+                  <div class="card border-light mb-3" style="max-width: 18rem;">
+                      
+                    <div class="card-body">
+                      <h3 class="card-title"><strong>SHOP</strong></h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel magni sit officiis, voluptatem repellendus.</p>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+       
+    </section>
+
+    <section id="covid">
+        <div class="covid-content padding">
+            <div class="cont">
+                <h2><strong>How we're keeping you safe during COVID-19.</strong></h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mole
+                stias nulla autem sit expedita necessitatibus iure neque odio 
+                voluptatibus delectus veritatis?
+            </p>
+            <a href="" class="btn btn-primary ">Know more</a>
+            </div>
+            
         </div>
     </section>
 
-    <section id="Support">
-        <div class="features">
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>WAYS TO SUPPORT</p>
-                    <h2>Support ACME outdoors.</h2>
-                </div>
-                <div class="col-lg-6 about">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eligendi cum atque, distinctio beatae delectus totam accusantium facilis voluptates perferendis inventore doloribus alias fugiat ipsa animi? Eaque incidunt vel laborum!</p>
-                </div>
-            </div>    
+    <section id="shop">
+        <div class="shop-content padding">
+            <a href=""><p>Shop products</p></a>
+            
+            <h3>Open 24/7/365</h3>
         </div>
-        <div class="cards">
-            <div class="card1">
-                <h2>SHOP PRODUCTS</h2>
-            </div>
-            <div class="card2">
-                <h2>DONATE</h2>
-            </div>
-            <div class="card3">
-                <h2>BUY GIFTCARDS</h2>
-            </div>
-        </div>
-        <div class="card-content">
-            <div class="c1">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam eaque quaerat quod optio saepe nostrum.</p>
-            </div>
-            <div class="c2">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam eaque quaerat quod optio saepe nostrum.</p>
-            </div>
-            <div class="c3">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam eaque quaerat quod optio saepe nostrum.</p>
+    </section>
+
+    <footer id="findus">
+        <div class="container-fluid padding find-us">
+            <div class="row padding text-center">
+                <div class="col-md-4">
+                    <a href="" class="navbar-brand"><i class="fas fa-angle-double-up logo"></i>Acme</a>
+                    <hr>
+                    <p>555-555-555</p>
+                    <p>email@email.com</p>
+                    <p>100 street name</p>
+                    <p>City,state,IND</p>
+                </div>
+                <div class="col-md-4">
+                    <hr>
+                     <h5>Our hours</h5>
+                    <hr>
+                    <p>Monday</p>
+                    <p>Saturday</p>
+                    <p>Sunday</p>
+                </div>
+                <div class="col-md-4">
+                    <hr>
+                     <h5>Services</h5>
+                    <hr>
+                    <p>Monday</p>
+                    <p>Saturday</p>
+                    <p>Sunday</p>
+                </div>
+                <div class="col-12">
+                    <hr>
+                    <h5 >&copy; Acme.org</h5>
+                </div>
             </div>
         </div>
         
-    </section>
-
-    <section id="Covid">
-        <div class="row covid-img">
-            <div class="col-lg-6">
-
-            </div>
-            <div class="col-lg-6 covid-content">
-                <h2>How we're keeping you safe during COVID-19</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam eaque quaerat quod optio saepe nostrum.</p>
-                <button type="button" class="btn btn-success">Know more</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="Shop">
-        <div class="row shop">
-            <div class="col-lg-6">
-               <a href="">Shop products</a>
-                <h3>OPEN 24/7/365</h3>
-            </div>
-        </div>
-    </section>
-
-    <footer id="Findus">
-        <a href="" class="fab fa-twitter icon"></a>
-        <a href="" class="fab fa-facebook-f icon"></a>
-        <a href="" class="fab fa-instagram icon"></a>
-        <a href="" class="fas fa-envelope icon"></a>
-        <p>© Copyright 2021 ACNE</p>
-       
     </footer>
 </body>
 </html>
